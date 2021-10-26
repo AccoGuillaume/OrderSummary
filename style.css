@@ -43,6 +43,7 @@ body {
     .card {
         height: 86vh;
         width: 84vw;
+        background-color: blue;
     }    
 }
 
@@ -62,3 +63,44 @@ body {
     color: #838799;
 }
 
+.annual-plan {
+    display: flex;
+    background-color: #f8f9fe;
+    border-radius: 15px;
+    margin: auto;
+    width: 70%;
+    height: 20%;
+}
+
+.note {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8%;
+}
+
+.prices {
+    margin-left: 8%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.change {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8%;
+}
+
+#annual {
+    font-weight: bold;
+}
+
+#price {
+    color: #838799;
+    margin-top: 5%;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
