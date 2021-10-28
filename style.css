@@ -53,6 +53,15 @@ body {
     margin-left: 8%;
 }
 
+#annual {
+    font-weight: bold;
+}
+
+#price {
+    color: #838799;
+    margin-top: 5%;
+}
+
 .prices {
     margin-left: 8%;
     margin-right: auto;
@@ -65,15 +74,6 @@ body {
     margin-bottom: auto;
     margin-right: 8%;
     font-weight: bold;
-}
-
-#annual {
-    font-weight: bold;
-}
-
-#price {
-    color: #838799;
-    margin-top: 5%;
 }
 
 a:hover {
@@ -177,28 +177,31 @@ a:hover {
 @media (max-width: 769px) {
     .card {
         height: 86vh;
-        width: 40vw;
+        width: 45vw;
     }
 
     .card-header {
-        height: 26%;
+        height: 21%;
     }
 
     .card-title {
         margin-top: 10%;
+        font-size:large ;
     }
     
     .card-text {
-        font-size: unset;
+        font-size: small;
         padding-top: 5%;
     }
 
     .annual-plan {
         margin-top: 10%;
+        font-size: small;
     }
 
     .button {
         margin-top: 10%;
+        font-size: small;
     }
 
     .cancel {
