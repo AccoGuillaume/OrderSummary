@@ -24,7 +24,7 @@ body {
 
 .card-title {
     text-align: center;
-    color: #1f2f56;
+    color: hsl(223, 47%, 23%);
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5%;
