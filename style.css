@@ -116,7 +116,7 @@ a:hover {
     color: hsl(223, 47%, 23%);
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1600px) {
     .card {
         height: 74vh;
         width: 30vw;
@@ -155,7 +155,6 @@ a:hover {
     }
 }
 
-
 @media (max-width: 1199.98px) {
     .card {
         width: 35vw;
@@ -170,7 +169,6 @@ a:hover {
     }
 
     .card-text {
-        padding-top: 5%;
         font-size: large;
     }
 }
@@ -194,7 +192,7 @@ a:hover {
     }
 
     .annual-plan {
-        margin-top: 7%;
+        margin-top: 10%;
     }
 
     .button {
@@ -206,10 +204,8 @@ a:hover {
     }
 }
 
-
 @media (max-width: 573px) {
     .card {
-        height: 86vh;
         width: 70vw;
     }
 
@@ -219,11 +215,6 @@ a:hover {
 
     .card-title {
         margin-top: 10%;
-    }
-    
-    .card-text {
-        font-size: medium;
-        padding-top: 5%;
     }
 
     .annual-plan {
