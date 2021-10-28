@@ -22,7 +22,7 @@ body {
     height: 34%;
 }
 
-.title {
+.card-title {
     text-align: center;
     color: #1f2f56;
     font-weight: bold;
@@ -40,7 +40,7 @@ body {
 
 .annual-plan {
     display: flex;
-    background-color: #f8f9fe;
+    background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
     margin: auto;
     width: 70%;
@@ -84,7 +84,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    background-color: #382ae1;
+    background-color: hsl(245, 75%, 52%);
     width: 69%;
     border-radius: 10px;
     color: white;
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #063970;
+    background-color: hsl(223, 47%, 23%);
 }
 
 .cancel {
@@ -108,25 +108,25 @@ a:hover {
 
 #cancel-order {
     font-weight: bold;
-    color: #a0a8be;
+    color: hsl(224, 23%, 55%);
     text-decoration: none;
 }
 
 #cancel-order:hover {
-    color: #1f2f56;
+    color: hsl(223, 47%, 23%);
 }
 
 @media (max-width: 1700px) {
     .card {
         height: 74vh;
-        width: 45vw;
+        width: 30vw;
     }
 
     .card-header {
         height: 38%;
     }
 
-    .title {
+    .card-title {
         font-size: larger;
     }
 
@@ -141,7 +141,7 @@ a:hover {
         width: 80%;
         height: 10%;
         font-size: smaller;
-        margin-top: 10%;
+        margin-top: 7%;
     }
 
     .note {
@@ -149,27 +149,23 @@ a:hover {
     }
 
     .button {
-        margin-top: 10%;
+        margin-top: 7%;
         padding-left: 5%;
         padding-right: 5%;
-    }
-
-    .cancel {
-        margin-top: 10%;
     }
 }
 
 @media (max-width: 1199.98px) {
-    .title {
-        font-size: xx-large;
-    }
-
     .card {
-        width: 50vw;
+        width: 35vw;
     }
 
     .card-header {
         height: 30%;
+    }
+
+    .card-title {
+        font-size: xx-large;
     }
 
     .card-text {
@@ -181,14 +177,14 @@ a:hover {
 @media (max-width: 769px) {
     .card {
         height: 86vh;
-        width: 70vw;
+        width: 40vw;
     }
 
     .card-header {
         height: 26%;
     }
 
-    .title {
+    .card-title {
         margin-top: 10%;
     }
     
@@ -201,5 +197,12 @@ a:hover {
         margin-top: 10%;
     }
 
+    .button {
+        margin-top: 10%;
+    }
+
+    .cancel {
+        margin-top: 10%;
+    }
 }
 
