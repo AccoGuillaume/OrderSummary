@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/AccoGuillaume/OrderSummary/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+OrderSummary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Réaliser une carte représentant la synthèse d'une commande.
 
-### Markdown
+Ne pas utiliser de librairies (bootsrap).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Le design doit être responsive sur deux largeurs d'écran (1440px et 375px).
 
-```markdown
-Syntax highlighted code block
+Le design doit correspondre aux captures d'écran données comme exemple :
+<img src="/images/design/desktop-preview.jpg" />
+<img src="/images/design/desktop-design.jpg" />
+<img src="/images/design/active-state.jpg" />
+<img src="/images/design/mobile-design.jpg" />
 
-# Header 1
-## Header 2
-### Header 3
+Les images sont fournies par FrontEndMentor
+https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AccoGuillaume/OrderSummary/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Le résultat est disponible ici : https://accoguillaume.github.io/OrderSummary/
+<img src="/images/CaptureEcranGuillaume.png" />
